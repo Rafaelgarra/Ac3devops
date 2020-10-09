@@ -29,4 +29,4 @@ def calcula_primos():
 
 if __name__ == "__main__":
     port = int(os.environ.get("port", 5000))
-    app.run(host="192.168.15.13", port=port)
+    app.run(host="0.0.0.0", port=port)
