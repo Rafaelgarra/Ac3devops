@@ -1,0 +1,100 @@
+2020-10-09T01:22:42.300243+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/werkzeug/serving.py", line 962, in inner
+2020-10-09T01:22:42.300705+00:00 app[web.1]: fd=fd,
+2020-10-09T01:22:42.300747+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/werkzeug/serving.py", line 805, in make_server
+2020-10-09T01:22:42.301166+00:00 app[web.1]: host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+2020-10-09T01:22:42.301168+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/werkzeug/serving.py", line 698, in __init__
+2020-10-09T01:22:42.301548+00:00 app[web.1]: HTTPServer.__init__(self, server_address, handler)
+2020-10-09T01:22:42.301553+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/socketserver.py", line 452, in __init__
+2020-10-09T01:22:42.301922+00:00 app[web.1]: self.server_bind()
+2020-10-09T01:22:42.301926+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/http/server.py", line 137, in server_bind
+2020-10-09T01:22:42.302171+00:00 app[web.1]: socketserver.TCPServer.server_bind(self)
+2020-10-09T01:22:42.302172+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/socketserver.py", line 466, in server_bind
+2020-10-09T01:22:42.302581+00:00 app[web.1]: self.socket.bind(self.server_address)
+2020-10-09T01:22:42.302614+00:00 app[web.1]: OSError: [Errno 99] Cannot assign requested address
+2020-10-09T01:22:42.363200+00:00 heroku[web.1]: Process exited with status 1
+2020-10-09T01:22:42.627616+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-09T01:22:42.629691+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-09T01:22:43.000000+00:00 app[api]: Build succeeded
+2020-10-09T01:22:46.435086+00:00 heroku[web.1]: Starting process with command `python AcDevops.py`
+2020-10-09T01:22:50.164798+00:00 app[web.1]: * Serving Flask app "AcDevops" (lazy loading)
+2020-10-09T01:22:50.164826+00:00 app[web.1]: * Environment: production
+2020-10-09T01:22:50.164865+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-09T01:22:50.164944+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-09T01:22:50.164987+00:00 app[web.1]: * Debug mode: off
+2020-10-09T01:22:50.191147+00:00 app[web.1]: Traceback (most recent call last):
+2020-10-09T01:22:50.191226+00:00 app[web.1]: File "AcDevops.py", line 32, in <module>
+2020-10-09T01:22:50.191593+00:00 app[web.1]: app.run(host="192.168.15.13", port=port)
+2020-10-09T01:22:50.191628+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/flask/app.py", line 941, in run
+2020-10-09T01:22:50.192491+00:00 app[web.1]: run_simple(host, port, self, **options)
+2020-10-09T01:22:50.192523+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/werkzeug/serving.py", line 1009, in run_simple
+2020-10-09T01:22:50.193388+00:00 app[web.1]: inner()
+2020-10-09T01:22:50.193419+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/werkzeug/serving.py", line 962, in inner
+2020-10-09T01:22:50.194230+00:00 app[web.1]: fd=fd,
+2020-10-09T01:22:50.194260+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/werkzeug/serving.py", line 805, in make_server
+2020-10-09T01:22:50.194992+00:00 app[web.1]: host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+2020-10-09T01:22:50.195025+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/site-packages/werkzeug/serving.py", line 698, in __init__
+2020-10-09T01:22:50.195690+00:00 app[web.1]: HTTPServer.__init__(self, server_address, handler)
+2020-10-09T01:22:50.195721+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/socketserver.py", line 452, in __init__
+2020-10-09T01:22:50.196329+00:00 app[web.1]: self.server_bind()
+2020-10-09T01:22:50.196358+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/http/server.py", line 137, in server_bind
+2020-10-09T01:22:50.196750+00:00 app[web.1]: socketserver.TCPServer.server_bind(self)
+2020-10-09T01:22:50.196785+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.7/socketserver.py", line 466, in server_bind
+2020-10-09T01:22:50.197431+00:00 app[web.1]: self.socket.bind(self.server_address)
+2020-10-09T01:22:50.197588+00:00 app[web.1]: OSError: [Errno 99] Cannot assign requested address
+2020-10-09T01:22:50.371007+00:00 heroku[web.1]: Process exited with status 1
+2020-10-09T01:22:50.409891+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-09T01:22:53.866119+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=ac3app.herokuapp.com request_id=7b22362d-490f-448d-b65a-9e9115f9f32d fwd="191.19.38.198" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-09T01:22:54.497575+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=ac3app.herokuapp.com request_id=881beb8c-74f5-47c8-bd9b-c6c55c76bde1 fwd="191.19.38.198" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-09T01:23:09.205417+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=ac3app.herokuapp.com request_id=6a203a45-19e5-494b-9097-e9a819241def fwd="191.19.38.198" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-09T01:23:09.832633+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=ac3app.herokuapp.com request_id=0679f6f1-97a1-4358-ac86-86ee1a4f214a fwd="191.19.38.198" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-09T01:28:49.819376+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=ac3app.herokuapp.com request_id=dd6f59d2-e4d4-453f-84bd-3aaa088b2d77 fwd="191.19.38.198" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-09T01:28:50.438680+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=ac3app.herokuapp.com request_id=0524fa1a-5231-4e0e-99f8-d5d500f9c2ed fwd="191.19.38.198" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-09T01:33:09.000000+00:00 app[api]: Build started by user rafael.quatis@aluno.faculdadeimpacta.com.br
+2020-10-09T01:33:33.425047+00:00 app[api]: Deploy bdb51b90 by user rafael.quatis@aluno.faculdadeimpacta.com.br
+2020-10-09T01:33:33.425047+00:00 app[api]: Release v5 created by user rafael.quatis@aluno.faculdadeimpacta.com.br
+2020-10-09T01:33:33.722825+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-09T01:33:36.663652+00:00 heroku[web.1]: Starting process with command `python AcDevops.py`
+2020-10-09T01:33:39.681119+00:00 app[web.1]: * Serving Flask app "AcDevops" (lazy loading)
+2020-10-09T01:33:39.681150+00:00 app[web.1]: * Environment: production
+2020-10-09T01:33:39.689552+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-09T01:33:39.689565+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-09T01:33:39.689566+00:00 app[web.1]: * Debug mode: off
+2020-10-09T01:33:39.713451+00:00 app[web.1]: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-10-09T01:33:42.000000+00:00 app[api]: Build succeeded
+2020-10-09T01:34:37.152878+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2020-10-09T01:34:37.171918+00:00 heroku[web.1]: Stopping process with SIGKILL
+2020-10-09T01:34:37.257423+00:00 heroku[web.1]: Process exited with status 137
+2020-10-09T01:34:37.307965+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-09T01:34:37.309957+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-09T01:34:41.724024+00:00 heroku[web.1]: Starting process with command `python AcDevops.py`
+2020-10-09T01:34:45.556431+00:00 app[web.1]: * Serving Flask app "AcDevops" (lazy loading)
+2020-10-09T01:34:45.556496+00:00 app[web.1]: * Environment: production
+2020-10-09T01:34:45.556504+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-09T01:34:45.556620+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-09T01:34:45.556711+00:00 app[web.1]: * Debug mode: off
+2020-10-09T01:34:45.592365+00:00 app[web.1]: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-10-09T01:35:09.484881+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=ac3app.herokuapp.com request_id=78c68afb-84f8-40f3-9603-af67d3d9d546 fwd="191.19.38.198" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-09T01:35:41.785420+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2020-10-09T01:35:41.810880+00:00 heroku[web.1]: Stopping process with SIGKILL
+2020-10-09T01:35:41.955613+00:00 heroku[web.1]: Process exited with status 137
+2020-10-09T01:35:42.007803+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-09T01:35:44.090090+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=ac3app.herokuapp.com request_id=e4108351-03be-4fc3-9547-4eb202ef9db7 fwd="191.19.38.198" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-09T01:35:44.542306+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=ac3app.herokuapp.com request_id=4d8802d7-2f7c-4457-ac19-d0e5facdb00b fwd="191.19.38.198" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-09T01:35:45.175497+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=ac3app.herokuapp.com request_id=1327460b-8df1-4008-8cb0-db6469ac9078 fwd="191.19.38.198" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-09T01:39:54.000000+00:00 app[api]: Build started by user rafael.quatis@aluno.faculdadeimpacta.com.br
+2020-10-09T01:40:16.553114+00:00 app[api]: Deploy 654656bf by user rafael.quatis@aluno.faculdadeimpacta.com.br
+2020-10-09T01:40:16.553114+00:00 app[api]: Release v6 created by user rafael.quatis@aluno.faculdadeimpacta.com.br
+2020-10-09T01:40:17.029159+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-09T01:40:20.565698+00:00 heroku[web.1]: Starting process with command `python AcDevops.py`
+2020-10-09T01:40:23.554857+00:00 app[web.1]: * Serving Flask app "AcDevops" (lazy loading)
+2020-10-09T01:40:23.554943+00:00 app[web.1]: * Environment: production
+2020-10-09T01:40:23.555013+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-09T01:40:23.555121+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-09T01:40:23.555171+00:00 app[web.1]: * Debug mode: off
+2020-10-09T01:40:23.582074+00:00 app[web.1]: * Running on http://0.0.0.0:15845/ (Press CTRL+C to quit)
+2020-10-09T01:40:24.000000+00:00 app[api]: Build succeeded
+2020-10-09T01:40:24.827236+00:00 heroku[web.1]: State changed from starting to up
+2020-10-09T01:41:08.829272+00:00 app[web.1]: 10.69.31.173 - - [09/Oct/2020 01:41:08] "GET / HTTP/1.1" 200 -
+2020-10-09T01:41:08.833362+00:00 heroku[router]: at=info method=GET path="/" host=ac3app.herokuapp.com request_id=20fa22b7-008c-440c-9843-0fa3538f8370 fwd="191.19.38.198" dyno=web.1 connect=0ms service=96ms status=200 bytes=634 protocol=https
+2020-10-09T01:41:09.150468+00:00 app[web.1]: 10.69.31.173 - - [09/Oct/2020 01:41:09] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-09T01:41:09.153017+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3app.herokuapp.com request_id=4f972595-4ec6-480d-b8cc-234b469bc4ae fwd="191.19.38.198" dyno=web.1 connect=0ms service=23ms status=404 bytes=379 protocol=https
