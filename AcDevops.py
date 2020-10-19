@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def calcula_primos():
     quantd = 100
-    aculmu = "1, "
+    aculmu = " "
     cont = 0
     conti = quantd
     zikin = 0
